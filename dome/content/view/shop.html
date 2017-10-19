@@ -1,0 +1,54 @@
+
+<div class="wrap">
+    <header>
+        <a href="">
+            购物车
+        </a>
+        <a href="">
+            编辑
+            <i class="icon iconfont icon-xiaoxi1"></i>
+            <em></em>
+        </a>
+    </header>
+    <div class="scroll">
+        <section>
+            <shop  ng-repeat="file in arr" items="file" index="{{$index}}"></shop>
+            <aside class="three">
+                <h1>
+                    <span></span>
+                    <input type="checkbox"ng-click="allchecked()">
+                    <em ng-class="{on:flag}">√</em>
+                    全选
+                </h1>
+                <p>
+                    合计:<span>￥{{goodsPrice}}</span>
+                    <i>不含运费</i>
+                    <button class="allsum">结算({{goodsCount}})</button>
+                </p>
+
+            </aside>
+        </section>
+    </div>
+    <footer>
+        <a href="">
+            <i class="icon iconfont icon-iconhuidaoshouye"></i>
+            <span>首页</span>
+        </a>
+        <a href="">
+            <i class="icon iconfont icon-youdaoyunbiji"></i>
+            <span>微淘</span>
+        </a>
+        <a href="">
+            <i class="icon iconfont icon-xinxi"></i>
+            <span>社区</span>
+        </a>
+        <a href="">
+            <i class="icon iconfont icon-gouwuche"></i>
+            <span>购物车</span>
+        </a>
+        <a href="">
+            <i class="icon iconfont icon-wode"></i>
+            <span>我的淘宝</span>
+        </a>
+    </footer>
+</div>

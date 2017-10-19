@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/dome/app/controller/shopcontroller.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dome/content/data/data.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dome/content/view/_shop.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dome/content/view/shop.html" charset="UTF-8" />
+  </component>
+</project>

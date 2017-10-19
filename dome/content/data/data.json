@@ -1,0 +1,30 @@
+[
+  {
+    "title":"小熊汇歌专卖店",
+    "imgurl":"content/img/ban1.png",
+    "content":"利仁DHG-233A多功能电热锅家用炒锅小店火锅不粘锅小电锅电煮锅",
+    "color":"颜色分类:褐色",
+    "price":"99",
+    "state":true,
+    "num":1
+
+  },
+  {
+    "title":"小浣熊电器旗航店",
+    "imgurl":"content/img/ban2.png",
+    "content":"利仁DHG-233A多功能电热锅家用炒锅小店火锅不粘锅小电锅电煮锅",
+    "color":"颜色分类:褐红色",
+    "price":"199",
+    "state":true,
+    "num":1
+  },
+  {
+    "title":"利仁瓶盖专卖店",
+    "imgurl":"content/img/ban3.png",
+    "content":"利仁DHG-233A多功能电热锅家用炒锅小店火锅不粘锅小电锅电煮锅",
+    "color":"颜色分类:紫色",
+    "price":"356",
+    "state":false,
+    "num":1
+  }
+]

@@ -1,0 +1,40 @@
+<div>
+    <aside>
+        <h1  >
+            <span ></span>
+            <input type="checkbox"  ng-click="itemchecked(index)">
+            <em ng-class="{on:item.state}">√</em>
+        </h1>
+        <p>
+            <i class="icon iconfont icon-tianmao4"></i><span>{{item.title}}
+            <i class="icon iconfont icon-chevron-thin-right"></i></span>
+            <b ng-click="deleteitem(index)">删除</b>
+        </p>
+    </aside>
+    <main>
+        <div class="left">
+            <h1>
+                <span></span>
+                <input type="checkbox" >
+                <em>√</em>
+            </h1>
+        </div>
+        <div class="right">
+            <dl>
+                <dt>
+                    <img ng-src={{item.imgurl}} alt=""><span>天猫年终盛典</span>
+                </dt>
+                <dd>
+                    <h5>{{item.content}}</h5>
+                    <h6>{{item.color}}</h6>
+                    <h1>
+                        <span class="reduce" ng-click="itemcount('-')">-</span>
+                        <span class="count">{{item.num}}</span>
+                        <span class="add" ng-click="itemcount('+')">+</span>
+                    </h1>
+                    <p>￥<b>{{item.price}}</b>.9<em>￥299</em><i>X1</i></p>
+                </dd>
+            </dl>
+        </div>
+    </main>
+</div>
